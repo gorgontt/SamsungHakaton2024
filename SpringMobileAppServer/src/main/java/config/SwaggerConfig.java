@@ -15,7 +15,7 @@ public class SwaggerConfig {
     public Docket api() {
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.samsung.spring.controller"))
+                .apis(RequestHandlerSelectors.basePackage("com.universam.spring.controller"))
                 .paths(PathSelectors.any())
                 .build();
     }
