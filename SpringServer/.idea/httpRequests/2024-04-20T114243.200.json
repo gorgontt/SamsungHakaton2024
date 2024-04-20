@@ -1,0 +1,32 @@
+[
+  {
+    "id": 0,
+    "login": "ВАНЯ КОННЫЙ",
+    "password": "148819391945",
+    "story": {
+      "id": 1,
+      "story": "Дед уснул"
+    },
+    "awatarURL": "564376429"
+  },
+  {
+    "id": 1,
+    "login": "Рудольф Адольфович",
+    "password": "333999666555",
+    "story": {
+      "id": 0,
+      "story": "шЕЛ И УШЁЛ"
+    },
+    "awatarURL": "666"
+  },
+  {
+    "id": 2,
+    "login": "adolf",
+    "password": "14666",
+    "story": {
+      "id": 0,
+      "story": "шЕЛ И УШЁЛ"
+    },
+    "awatarURL": null
+  }
+]

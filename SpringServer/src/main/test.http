@@ -1,1 +1,12 @@
-GET http://localhost:8081/users
+PUT http://localhost:8081/users
+Content-Type: application/json
+
+{
+  "id": 1,
+  "login": "Adolfus",
+  "password": "1488",
+  "storyId": 1,
+  "awatarURL": "193919451933"
+}
+
+//GET http://localhost:8081/users/story/0

@@ -33,7 +33,10 @@ public class UserController {
     public ResponseEntity<List<User>> readAll() {
         return mappingResponseListUser(userService.readAll());
     }
-
+    @GetMapping("/{id}")
+    public ResponseEntity <User> readById(@PathVariable Long id) {
+        return mappingResponseUser(userService.readById(id));
+    }
     @GetMapping("/story/{id}")
     public ResponseEntity<List<User>> readByStoryId(@PathVariable Long id) {
         return mappingResponseListUser(userService.readByStoryId(id));

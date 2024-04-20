@@ -2,13 +2,12 @@ package org.example.service;
 
 import lombok.AllArgsConstructor;
 import org.example.dto.UserDTO;
-import org.example.entity.Story;
 import org.example.entity.User;
 import org.example.repository.UserRepository;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 @Service
 @AllArgsConstructor
@@ -34,6 +33,15 @@ public class UserService {
         return userRepository.findByStoryId(id);
     }
 
+    public User readById(Long id) {
+        if(userRepository.findById(id) != null) {
+            return userRepository.findById(id).get();
+        }else{
+            return null;
+
+        }
+    }
+
     public User update(User user) {
         return userRepository.save(user);
     }
@@ -41,4 +49,5 @@ public class UserService {
     public void delete(Long id) {
         userRepository.deleteById(id);
     }
+
 }
