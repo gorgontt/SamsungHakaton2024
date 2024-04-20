@@ -11,5 +11,4 @@ public class UserDTO {
     private String password;
     private String AwatarURL;
     private Long storyId;
-    private Story story;
 }

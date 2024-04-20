@@ -19,6 +19,6 @@ public class StoriesService {
 
     public Story readById(Long id) {
         return storyRepository.findById(id).orElseThrow(() ->
-                new RuntimeException("Category not found - " + id));
+                new RuntimeException("Story not found - " + id));
     }
 }

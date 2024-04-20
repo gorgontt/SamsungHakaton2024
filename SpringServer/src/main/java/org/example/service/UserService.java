@@ -22,7 +22,7 @@ public class UserService {
                 .login(dto.getLogin())
                 .password(dto.getPassword())
                 .AwatarURL(dto.getAwatarURL())
-                .story(dto.getStory())
+                .story(storiesService.readById(dto.getStoryId()))
                 .build());
     }
 

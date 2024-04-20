@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping("/categories")
+@RequestMapping("/stories")
 @AllArgsConstructor
 public class StoryController {
 

@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping("/products")
+@RequestMapping("/stories")
 @AllArgsConstructor
 public class UserController {
 
@@ -26,22 +26,22 @@ public class UserController {
 
     @PostMapping
     public ResponseEntity<User> create(@RequestBody UserDTO dto) {
-        return mappingResponseProduct(userService.create(dto));
+        return mappingResponseUser(userService.create(dto));
     }
 
     @GetMapping
     public ResponseEntity<List<User>> readAll() {
-        return mappingResponseListProduct(userService.readAll());
+        return mappingResponseListUser(userService.readAll());
     }
 
-    @GetMapping("/category/{id}")
+    @GetMapping("/story/{id}")
     public ResponseEntity<List<User>> readByStoryId(@PathVariable Long id) {
-        return mappingResponseListProduct(userService.readByStoryId(id));
+        return mappingResponseListUser(userService.readByStoryId(id));
     }
 
     @PutMapping
     public ResponseEntity<User> update(@RequestBody User user) {
-        return mappingResponseProduct(userService.update(user));
+        return mappingResponseUser(userService.update(user));
     }
 
     @DeleteMapping("/{id}")
@@ -50,11 +50,11 @@ public class UserController {
         return HttpStatus.OK;
     }
 
-    private ResponseEntity<User> mappingResponseProduct(User user) {
+    private ResponseEntity<User> mappingResponseUser(User user) {
         return new ResponseEntity<>(user, HttpStatus.OK);
     }
 
-    private ResponseEntity<List<User>> mappingResponseListProduct(List<User> users) {
+    private ResponseEntity<List<User>> mappingResponseListUser(List<User> users) {
         return new ResponseEntity<>(users, HttpStatus.OK);
     }
 }
