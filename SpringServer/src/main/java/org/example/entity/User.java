@@ -17,9 +17,17 @@ public class User {
 
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
+
+    @Column(name="id")
     private Long id;
+
+    @Column(name="login")
     private String login;
+
+    @Column(name="password")
     private String password;
+
+    @Column(name="AwatarURL")
     private String AwatarURL;
 
     @ManyToOne
