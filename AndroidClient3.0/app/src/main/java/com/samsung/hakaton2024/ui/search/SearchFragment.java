@@ -25,6 +25,7 @@ public class SearchFragment extends Fragment {
 
     private FragmentSearchBinding binding;
     private List<Item> itemList;
+    private List<Item> itemListRecycler;
 
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         SearchViewModel searchViewModel = new ViewModelProvider(this).get(SearchViewModel.class);
@@ -66,6 +67,18 @@ public class SearchFragment extends Fragment {
         recycler.setLayoutManager(layoutManager);
         MyAdapter myAdapter = new MyAdapter(getContext(), itemList);
         recycler.setAdapter(myAdapter);
+
+        itemListRecycler = new ArrayList<>();
+        itemListRecycler.add(new Item("hgh", R.drawable.non_like));
+        itemListRecycler.add(new Item("hghgh", R.drawable.non_like));
+        itemListRecycler.add(new Item("22222", R.drawable.non_like));
+
+
+        LinearLayoutManager layoutManager2 = new LinearLayoutManager(getContext());
+
+        binding.rvSearchFrag.setLayoutManager(layoutManager2);
+        MyAdapter myAdapter2 = new MyAdapter(getContext(), itemListRecycler);
+        binding.rvSearchFrag.setAdapter(myAdapter2);
     }
 
     private void showFilterDialog() {

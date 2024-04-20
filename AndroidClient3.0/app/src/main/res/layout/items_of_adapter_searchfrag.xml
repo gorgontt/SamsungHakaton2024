@@ -4,6 +4,11 @@
     android:layout_height="wrap_content"
     android:background="@color/purple_200">
 
+    <ImageView
+        android:id="@+id/imgV_recycler_search"
+        android:layout_width="330dp"
+        android:layout_height="90dp"/>
+
     <TextView
         android:id="@+id/tv_recyclerV"
         android:layout_width="wrap_content"
