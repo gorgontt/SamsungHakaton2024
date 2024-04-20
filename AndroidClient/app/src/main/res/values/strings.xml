@@ -2,4 +2,8 @@
     <string name="app_name" translatable="false">Hacaton2024</string>
     <string name="title_home">Home</string>
     <string name="title_profile" translatable="true">Profile</string>
+    <string name="title_profileName">Иван</string>
+    <string name="title_likes">Кол-во лайков</string>
+    <string name="title_comments">Кол-во комментариев</string>
+    <string name="title_others">Прочие</string>
 </resources>
