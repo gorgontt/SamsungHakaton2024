@@ -13,6 +13,7 @@ import java.util.ArrayList;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
+@Table(name="users")
 public class User {
 
     @Id
@@ -27,7 +28,7 @@ public class User {
     @Column(name="password")
     private String password;
 
-    @Column(name="AwatarURL")
+    @Column(name="awatar")
     private String AwatarURL;
 
     @ManyToOne

@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping("/stories")
+@RequestMapping("/users")
 @AllArgsConstructor
 public class UserController {
 
