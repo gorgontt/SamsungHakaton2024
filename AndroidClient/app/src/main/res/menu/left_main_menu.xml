@@ -4,7 +4,6 @@
         android:id="@+id/navigation_author"
         android:icon="@drawable/profile"
         android:title="@string/title_profileName" />
-
     <item
         android:id="@+id/like"
         android:icon="@drawable/non_like"
