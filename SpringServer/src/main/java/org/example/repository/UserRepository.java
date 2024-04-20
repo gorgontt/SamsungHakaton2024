@@ -1,13 +1,13 @@
 package org.example.repository;
 
-import org.example.entity.Product;
+import org.example.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
 @Repository
-public interface ProductRepository extends JpaRepository<Product, Long> {
+public interface UserRepository extends JpaRepository<User, Long> {
 
-    List<Product> findByCategoryId(Long id);
+    List<User> findByStoryId(Long id);
 }

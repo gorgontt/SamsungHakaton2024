@@ -1,0 +1,9 @@
+{
+  "id": 0,
+  "name": "пава",
+  "amount": 300,
+  "category": {
+    "id": 0,
+    "name": "first"
+  }
+}

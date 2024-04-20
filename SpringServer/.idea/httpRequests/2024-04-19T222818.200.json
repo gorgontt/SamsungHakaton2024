@@ -1,0 +1,11 @@
+[
+  {
+    "id": 0,
+    "name": "паваdf",
+    "amount": 300,
+    "category": {
+      "id": 0,
+      "name": "first"
+    }
+  }
+]
