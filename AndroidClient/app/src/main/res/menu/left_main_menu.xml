@@ -2,21 +2,21 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/navigation_author"
-        android:icon=""
+        android:icon="@drawable/profile"
         android:title="@string/title_profileName" />
 
     <item
         android:id="@+id/like"
-        android:icon=""
+        android:icon="@drawable/non_like"
         android:title="@string/title_likes" />
 
     <item
         android:id="@+id/comments"
-        android:icon=""
+        android:icon="@drawable/comment"
         android:title="@string/title_comments" />
 
     <item
         android:id="@+id/others"
-        android:icon=""
+        android:icon="@drawable/resend"
         android:title="@string/title_others" />
 </menu>
