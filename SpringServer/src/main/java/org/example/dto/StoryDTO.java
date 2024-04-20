@@ -1,9 +1,11 @@
 package org.example.dto;
 
+import lombok.Builder;
 import lombok.Data;
 
+@Builder
 @Data
 public class StoryDTO {
-    private Long id;
-    private String story;
+    private final Long id;
+    private final String story;
 }

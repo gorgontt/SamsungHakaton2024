@@ -1,0 +1,25 @@
+[
+  {
+    "id": 1,
+    "login": "Nikitka",
+    "password": "377399510466",
+    "story": [
+      {
+        "id": 1,
+        "story": "Tennesi taxis cooold"
+      },
+      {
+        "id": 2,
+        "story": "Quick and croome"
+      }
+    ],
+    "awatarURL": "12345678945689456123"
+  },
+  {
+    "id": 2,
+    "login": "Aleksandr",
+    "password": "admiral150",
+    "story": [],
+    "awatarURL": "1542687023562958"
+  }
+]

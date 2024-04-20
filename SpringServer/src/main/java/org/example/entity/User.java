@@ -7,6 +7,7 @@ import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 @Data
@@ -18,7 +19,6 @@ public class User {
 
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
-
     @Column(name="id")
     private Long id;
 
@@ -31,7 +31,7 @@ public class User {
     @Column(name="awatar")
     private String AwatarURL;
 
-    @ManyToOne
-    @JoinColumn(name = "story_id")
-    private Story story;
+    @OneToMany(targetEntity = Story.class, fetch = FetchType.EAGER)
+    private List<Story> story;
+
 }

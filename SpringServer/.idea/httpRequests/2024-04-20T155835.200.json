@@ -1,0 +1,56 @@
+[
+  {
+    "id": 0,
+    "login": "pupsik333",
+    "password": "15203540",
+    "story": [],
+    "awatarURL": "1233321123"
+  },
+  {
+    "id": 1,
+    "login": "Adolfus",
+    "password": "1488",
+    "story": [
+      {
+        "id": 3,
+        "story": null
+      },
+      {
+        "id": 4,
+        "story": null
+      },
+      {
+        "id": 5,
+        "story": null
+      },
+      {
+        "id": 6,
+        "story": null
+      },
+      {
+        "id": 7,
+        "story": null
+      },
+      {
+        "id": 8,
+        "story": null
+      },
+      {
+        "id": 9,
+        "story": null
+      },
+      {
+        "id": 10,
+        "story": null
+      }
+    ],
+    "awatarURL": "193919451933"
+  },
+  {
+    "id": 2,
+    "login": "Adolfus",
+    "password": "1488",
+    "story": [],
+    "awatarURL": "193919451933"
+  }
+]
