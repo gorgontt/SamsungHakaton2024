@@ -1,0 +1,6 @@
+{
+  "timestamp": "2024-04-20T12:00:36.975+00:00",
+  "status": 400,
+  "error": "Bad Request",
+  "path": "/stories"
+}

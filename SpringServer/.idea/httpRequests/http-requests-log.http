@@ -4,6 +4,530 @@ Accept-Encoding: br, deflate, gzip, x-gzip
 Accept: */*
 content-length: 0
 
+<> 2024-04-20T162425.200.json
+
+###
+
+POST http://localhost:8081/stories?userId=2
+Content-Type: application/json
+Content-Length: 44
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id": 0,
+  "story": "my text new 234"
+}
+
+<> 2024-04-20T162408.200.json
+
+###
+
+POST http://localhost:8081/stories?userId=1
+Content-Type: application/json
+Content-Length: 71
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{ "dto":[
+  { "id": 0,
+    "story": "my text new 234"
+}], "userId": 2
+}
+
+<> 2024-04-20T161642.200.json
+
+###
+
+POST http://localhost:8081/stories?userId=1
+Content-Type: application/json
+Content-Length: 67
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{ "dto":[
+  { "id": 0,
+    "story": "my text new"
+}], "userId": 2
+}
+
+<> 2024-04-20T161131.200.json
+
+###
+
+GET http://localhost:8081/users
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-04-20T161055.200.json
+
+###
+
+POST http://localhost:8081/stories?userId=1
+Content-Type: application/json
+Content-Length: 67
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{ "dto":[
+  { "id": 0,
+    "story": "my text new"
+}], "userId": 0
+}
+
+<> 2024-04-20T161000.200.json
+
+###
+
+POST http://localhost:8081/stories?userId=1
+Content-Type: application/json
+Content-Length: 67
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{ "dto":[
+  { "id": 0,
+    "story": "my text new"
+}], "userId": 0
+}
+
+<> 2024-04-20T160052.200.json
+
+###
+
+GET http://localhost:8081/users
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-04-20T155835.200.json
+
+###
+
+POST http://localhost:8081/stories?userId=1
+Content-Type: application/json
+Content-Length: 67
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{ "dto":[
+  { "id": 0,
+    "story": "my text new"
+}], "userId": 1
+}
+
+<> 2024-04-20T155831.200.json
+
+###
+
+GET http://localhost:8081/users
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-04-20T155816.200.json
+
+###
+
+POST http://localhost:8081/stories?userId=1
+Content-Type: application/json
+Content-Length: 67
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{ "dto":[
+  { "id": 1,
+    "story": "my text new"
+}], "userId": 0
+}
+
+<> 2024-04-20T155811.200.json
+
+###
+
+POST http://localhost:8081/stories?userId=1
+Content-Type: application/json
+Content-Length: 67
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{ "dto":[
+  { "id": 1,
+    "story": "my text new"
+}], "userId": 0
+}
+
+<> 2024-04-20T155807.200.json
+
+###
+
+GET http://localhost:8081/users
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-04-20T155742.200.json
+
+###
+
+POST http://localhost:8081/stories?userId=1
+Content-Type: application/json
+Content-Length: 67
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{ "dto":[
+  { "id": 4,
+    "story": "my text new"
+}], "userId": 1
+}
+
+<> 2024-04-20T155738.200.json
+
+###
+
+POST http://localhost:8081/stories?userId=1
+Content-Type: application/json
+Content-Length: 67
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{ "dto":[
+  { "id": 4,
+    "story": "my text new"
+}], "userId": 0
+}
+
+<> 2024-04-20T155730.200.json
+
+###
+
+GET http://localhost:8081/users
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-04-20T155707.200.json
+
+###
+
+GET http://localhost:8081/users
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-04-20T155618.200.json
+
+###
+
+GET http://localhost:8081/users
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-04-20T153802.200.json
+
+###
+
+POST http://localhost:8081/stories?userId=1
+Content-Type: application/json
+Content-Length: 67
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{ "dto":[
+  { "id": 4,
+    "story": "my text new"
+}], "userId": 0
+}
+
+<> 2024-04-20T152829.200.json
+
+###
+
+GET http://localhost:8081/users
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-04-20T152811.200.json
+
+###
+
+POST http://localhost:8081/stories?userId=1
+Content-Type: application/json
+Content-Length: 67
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{ "dto":[
+  { "id": 4,
+    "story": "my text new"
+}], "userId": 0
+}
+
+<> 2024-04-20T152752.200.json
+
+###
+
+GET http://localhost:8081/users
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-04-20T152733.200.json
+
+###
+
+GET http://localhost:8081/stories
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-04-20T152638.200.json
+
+###
+
+GET http://localhost:8081/users
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-04-20T152626.200.json
+
+###
+
+POST http://localhost:8081/stories?userId=1
+Content-Type: application/json
+Content-Length: 67
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{ "dto":[
+  { "id": 2,
+    "story": "my text new"
+}], "userId": 1
+}
+
+<> 2024-04-20T152610.200.json
+
+###
+
+POST http://localhost:8081/stories
+Content-Type: application/json
+Content-Length: 186
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{ "dto":[
+  { "id": 2,
+    "story": "my text new"
+}], "userDTO":[
+  {
+  "id": 2,
+  "login": "Adolfus",
+  "password": "1488",
+  "storyIds": [1, 2, 3, 4],
+  "awatarURL": "193919451933"
+}]}
+
+<> 2024-04-20T150619.400.json
+
+###
+
+POST http://localhost:8081/stories
+Content-Type: application/json
+Content-Length: 188
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{ "dto":[
+  {  "id": 2,
+    "story": "my text new"
+}], "userDTO":[
+  {
+  "id": 2,
+  "login": "Adolfus",
+  "password": "1488",
+  "storyIds": [1, 2, 3 , 4],
+  "awatarURL": "193919451933"
+}]}
+
+<> 2024-04-20T150546.400.json
+
+###
+
+POST http://localhost:8081/stories
+Content-Type: application/json
+Content-Length: 184
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+[ "dto":
+  {  "id": 2,
+    "story": "my text new"
+}, "userDTO":
+  {
+  "id": 2,
+  "login": "Adolfus",
+  "password": "1488",
+  "storyIds": [1, 2, 3 , 4],
+  "awatarURL": "193919451933"
+}]
+
+<> 2024-04-20T150510.400.json
+
+###
+
+POST http://localhost:8081/stories
+Content-Type: application/json
+Content-Length: 184
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{ "dto":
+  {  "id": 2,
+    "story": "my text new"
+}, "userDTO":
+  {
+  "id": 2,
+  "login": "Adolfus",
+  "password": "1488",
+  "storyIds": [1, 2, 3 , 4],
+  "awatarURL": "193919451933"
+}}
+
+<> 2024-04-20T150255.400.json
+
+###
+
+POST http://localhost:8081/stories
+Content-Type: application/json
+Content-Length: 186
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{ "dto":
+  {  "id": 2,
+    "story": "my text new"
+}, "userDTO":
+  {
+  "id": 2,
+  "login": "Adolfus",
+  "password": "1488",
+  "storyIds": [1, 2, 3 , 4],
+  "awatarURL": "193919451933"
+}}
+
+<> 2024-04-20T150251.400.json
+
+###
+
+POST http://localhost:8081/stories
+Content-Type: application/json
+Content-Length: 166
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+[
+  {  "id": 2,
+    "story": "my text new"
+},
+  {
+  "id": 2,
+  "login": "Adolfus",
+  "password": "1488",
+  "storyIds": [1, 2, 3 , 4],
+  "awatarURL": "193919451933"
+}]
+
+<> 2024-04-20T150036.400.json
+
+###
+
+POST http://localhost:8081/stories
+Content-Type: application/json
+Content-Length: 166
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+[
+  {  "id": 2,
+    "story": "my text new"
+},
+  {
+  "id": 1,
+  "login": "Adolfus",
+  "password": "1488",
+  "storyIds": [1, 2, 3 , 4],
+  "awatarURL": "193919451933"
+}]
+
+<> 2024-04-20T145954.400.json
+
+###
+
+POST http://localhost:8081/stories
+Content-Type: application/json
+Content-Length: 166
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+[
+  {  "id": 1,
+    "story": "my text new"
+},
+  {
+  "id": 1,
+  "login": "Adolfus",
+  "password": "1488",
+  "storyIds": [1, 2, 3 , 4],
+  "awatarURL": "193919451933"
+}]
+
+<> 2024-04-20T145915.400.json
+
+###
+
+GET http://localhost:8081/users
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
 <> 2024-04-20T135030.200.json
 
 ###
@@ -262,643 +786,6 @@ Accept: */*
 //GET http://localhost:8081/users/story/0
 
 <> 2024-04-20T130522.500.json
-
-###
-
-POST http://localhost:8081/users
-Content-Type: application/json
-Content-Length: 283
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "id": 1,
-  "login": "pupsik333",
-  "password": "15203540",
-  "story": {
-    "id": 1,
-    "story": "Река ночью плюёт по планетам, а звезды говорят об одном:"
-  },
-  "awatarURL": "1233321123"
-}
-
-//GET http://localhost:8081/users/story/0
-
-<> 2024-04-20T130425.500.json
-
-###
-
-POST http://localhost:8081/users
-Content-Type: application/json
-Content-Length: 283
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "id": 0,
-  "login": "pupsik333",
-  "password": "15203540",
-  "story": {
-    "id": 1,
-    "story": "Река ночью плюёт по планетам, а звезды говорят об одном:"
-  },
-  "awatarURL": "1233321123"
-}
-
-//GET http://localhost:8081/users/story/0
-
-<> 2024-04-20T130409.500.json
-
-###
-
-GET http://localhost:8081/users
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-<> 2024-04-20T130251.200.json
-
-###
-
-GET http://localhost:8081/users
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-<> 2024-04-20T130211.200.json
-
-###
-
-POST http://localhost:8081/users
-Content-Type: application/json
-Content-Length: 159
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "id": 0,
-  "login": "adolf",
-  "password": "14666",
-  "story": {
-    "id": 1
-  },
-  "awatarURL": "1246666662"
-}
-
-
-//GET http://localhost:8081/users/story/0
-
-<> 2024-04-20T125611.500.json
-
-###
-
-POST http://localhost:8081/users
-Content-Type: application/json
-Content-Length: 159
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "id": 1,
-  "login": "adolf",
-  "password": "14666",
-  "story": {
-    "id": 1
-  },
-  "awatarURL": "1246666662"
-}
-
-
-//GET http://localhost:8081/users/story/0
-
-<> 2024-04-20T125558.500.json
-
-###
-
-POST http://localhost:8081/stories
-Content-Type: application/json
-Content-Length: 129
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "id": 0,
-  "story": "Река ночью плюёт по планетам, а звезды говорят об одном:"
-}
-
-<> 2024-04-20T125525.200.json
-
-###
-
-POST http://localhost:8081/stories
-Content-Type: application/json
-Content-Length: 129
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "id": 0,
-  "story": "Река ночью плюёт по планетам, а звезды говорят об одном:"
-}
-
-<> 2024-04-20T125506.200.json
-
-###
-
-POST http://localhost:8081/users
-Content-Type: application/json
-Content-Length: 129
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "id": 1,
-  "login": "adolf",
-  "password": "14666",
-  "awatarURL": "1246666662"
-}
-
-
-//GET http://localhost:8081/users/story/0
-
-<> 2024-04-20T123401.500.json
-
-###
-
-POST http://localhost:8081/users
-Content-Type: application/json
-Content-Length: 129
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "id": 1,
-  "login": "adolf",
-  "password": "14666",
-  "awatarURL": "1246666662"
-}
-
-
-//GET http://localhost:8081/users/story/0
-
-<> 2024-04-20T123235.500.json
-
-###
-
-POST http://localhost:8081/users
-Content-Type: application/json
-Content-Length: 181
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "id": 1,
-  "login": "adolf",
-  "password": "14666",
-  "story": {
-    "id": null,
-    "story": null
-  },
-  "awatarURL": "1246666662"
-}
-
-
-//GET http://localhost:8081/users/story/0
-
-<> 2024-04-20T123224.500.json
-
-###
-
-POST http://localhost:8081/users
-Content-Type: application/json
-Content-Length: 194
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "id": 1,
-  "login": "adolf",
-  "password": "14666",
-  "story": {
-    "id": 0,
-    "story": "шЕЛ И УШЁЛ"
-  },
-  "awatarURL": "1246666662"
-}
-
-
-//GET http://localhost:8081/users/story/0
-
-<> 2024-04-20T123140.500.json
-
-###
-
-GET http://localhost:8081/users/0
-Content-Type: application/json
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 194
-
-{
-  "id": 0,
-  "login": "adolf",
-  "password": "14666",
-  "story": {
-    "id": 0,
-    "story": "шЕЛ И УШЁЛ"
-  },
-  "awatarURL": "1246666662"
-}
-
-
-//GET http://localhost:8081/users/story/0
-
-<> 2024-04-20T123111.200.json
-
-###
-
-GET http://localhost:8081/users
-Content-Type: application/json
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 194
-
-{
-  "id": 2,
-  "login": "adolf",
-  "password": "14666",
-  "story": {
-    "id": 0,
-    "story": "шЕЛ И УШЁЛ"
-  },
-  "awatarURL": "1246666662"
-}
-
-
-//GET http://localhost:8081/users/story/0
-
-<> 2024-04-20T115208.200.json
-
-###
-
-DELETE http://localhost:8081/users/2
-Content-Type: application/json
-Content-Length: 194
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "id": 2,
-  "login": "adolf",
-  "password": "14666",
-  "story": {
-    "id": 0,
-    "story": "шЕЛ И УШЁЛ"
-  },
-  "awatarURL": "1246666662"
-}
-
-
-//GET http://localhost:8081/users/story/0
-
-<> 2024-04-20T115200.200.json
-
-###
-
-GET http://localhost:8081/stories
-Content-Type: application/json
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 194
-
-{
-  "id": 2,
-  "login": "adolf",
-  "password": "14666",
-  "story": {
-    "id": 0,
-    "story": "шЕЛ И УШЁЛ"
-  },
-  "awatarURL": "1246666662"
-}
-
-
-//GET http://localhost:8081/users/story/0
-
-<> 2024-04-20T115022.200.json
-
-###
-
-GET http://localhost:8081/users
-Content-Type: application/json
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 194
-
-{
-  "id": 2,
-  "login": "adolf",
-  "password": "14666",
-  "story": {
-    "id": 0,
-    "story": "шЕЛ И УШЁЛ"
-  },
-  "awatarURL": "1246666662"
-}
-
-
-//GET http://localhost:8081/users/story/0
-
-<> 2024-04-20T114953.200.json
-
-###
-
-PUT http://localhost:8081/users
-Content-Type: application/json
-Content-Length: 194
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "id": 2,
-  "login": "adolf",
-  "password": "14666",
-  "story": {
-    "id": 0,
-    "story": "шЕЛ И УШЁЛ"
-  },
-  "awatarURL": "1246666662"
-}
-
-
-//GET http://localhost:8081/users/story/0
-
-<> 2024-04-20T114944.200.json
-
-###
-
-PUT http://localhost:8081/users
-Content-Type: application/json
-Content-Length: 186
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "id": 2,
-  "login": "adolf",
-  "password": "14666",
-  "story": {
-    "id": 0,
-    "story": "шЕЛ И УШЁЛ"
-  },
-  "awatarURL": null
-}
-
-
-//GET http://localhost:8081/users/story/0
-
-<> 2024-04-20T114920.200.json
-
-###
-
-GET http://localhost:8081/users/
-Content-Type: application/json
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 143
-
-{
-  "id": 2,
-  "login": "adolf",
-  "password": "14666",
-  "AwatarURL": "15641278",
-  "storyId": 0
-}
-
-
-//GET http://localhost:8081/users/story/0
-
-<> 2024-04-20T114631.200.json
-
-###
-
-GET http://localhost:8081/users/story/1
-Content-Type: application/json
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 143
-
-{
-  "id": 2,
-  "login": "adolf",
-  "password": "14666",
-  "AwatarURL": "15641278",
-  "storyId": 0
-}
-
-
-//GET http://localhost:8081/users/story/0
-
-<> 2024-04-20T114337.200.json
-
-###
-
-GET http://localhost:8081/users
-Content-Type: application/json
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 143
-
-{
-  "id": 2,
-  "login": "adolf",
-  "password": "14666",
-  "AwatarURL": "15641278",
-  "storyId": 0
-}
-
-
-//GET http://localhost:8081/users/story/0
-
-<> 2024-04-20T114243.200.json
-
-###
-
-GET http://localhost:8081/users/0
-Content-Type: application/json
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 143
-
-{
-  "id": 2,
-  "login": "adolf",
-  "password": "14666",
-  "AwatarURL": "15641278",
-  "storyId": 0
-}
-
-
-//GET http://localhost:8081/users/story/0
-
-<> 2024-04-20T114140.405.json
-
-###
-
-POST http://localhost:8081/users
-Content-Type: application/json
-Content-Length: 143
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "id": 2,
-  "login": "adolf",
-  "password": "14666",
-  "AwatarURL": "15641278",
-  "storyId": 0
-}
-
-
-//GET http://localhost:8081/users/story/0
-
-<> 2024-04-20T114123.200.json
-
-###
-
-POST http://localhost:8081/users
-Content-Type: application/json
-Content-Length: 143
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "id": 2,
-  "login": "adolf",
-  "password": "14666",
-  "AwatarURL": "15641278",
-  "storyId": 0
-}
-
-
-//GET http://localhost:8081/users/story/0
-
-<> 2024-04-20T114046.500.json
-
-###
-
-GET http://localhost:8081/users/story/0
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-<> 2024-04-20T112906.200.json
-
-###
-
-GET http://localhost:8081/users/story/1
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-<> 2024-04-20T112902.200.json
-
-###
-
-GET http://localhost:8081/users/story/1
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-<> 2024-04-20T112659.200.json
-
-###
-
-GET http://localhost:8081/users/story/0
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-<> 2024-04-20T112551.200.json
-
-###
-
-GET http://localhost:8081/users
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-<> 2024-04-20T110114.200.json
-
-###
-
-GET http://localhost:8081/users
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-<> 2024-04-20T105921.200.json
-
-###
-
-GET http://localhost:8081/products
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-04-19T222818.200.json
-
-###
-
-PUT http://localhost:8081/products
-Content-Type: application/json
-Content-Length: 109
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "id": 0,
-  "name": "паваdf",
-  "amount": 300,
-  "category": {
-    "id": 0,
-    "name": "second"
-  }
-}
-
-<> 2024-04-19T222814.200.json
 
 ###
 

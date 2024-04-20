@@ -1,12 +1,9 @@
-PUT http://localhost:8081/users
+POST http://localhost:8081/stories?userId=2
 Content-Type: application/json
 
 {
-  "id": 1,
-  "login": "Adolfus",
-  "password": "1488",
-  "storyId": 1,
-  "awatarURL": "193919451933"
+  "id": 0,
+  "story": "my text new 234"
 }
 
-//GET http://localhost:8081/users/story/0
+

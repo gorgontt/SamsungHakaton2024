@@ -20,8 +20,9 @@ public class StoryController {
     private final StoriesService storiesService;
 
     @PostMapping
-    public ResponseEntity<Story> create(@RequestBody StoryDTO dto) {
-        return mappingResponseStory(storiesService.create(dto));
+    public ResponseEntity<Story> create(@RequestBody StoryDTO dto, @RequestParam(name = "userId") long userId) {
+        System.out.println("*********** " + dto + " ***************** " + userId);
+        return mappingResponseStory(storiesService.create(dto, userId));
     }
 
     private ResponseEntity<Story> mappingResponseStory(Story story) {
