@@ -6,4 +6,5 @@
     <string name="title_likes">Кол-во лайков</string>
     <string name="title_comments">Кол-во комментариев</string>
     <string name="title_others">Прочие</string>
+    <string name="authors_photo">Фото автора</string>
 </resources>
