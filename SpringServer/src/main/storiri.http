@@ -1,1 +1,10 @@
-GET http://localhost:8081/users
+POST http://localhost:8081/users
+Content-Type: application/json
+
+{
+  "id": 2,
+  "login": "Aleksandr",
+  "password": "admiral150",
+  "AwatarURL": "1542687023562958"
+}
+
