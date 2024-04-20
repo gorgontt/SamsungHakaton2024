@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.samsung.hakaton2024.app-mergeDebugResources-43:/values-watch-v20/values-watch-v20.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\lutse\\.gradle\\caches\\transforms-3\\a6897e82d3944be8fcf52c862edaf9ad\\transformed\\appcompat-1.6.1\\res\\values-watch-v20\\values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,214,385",
+                        "endLines": "4,7,10",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "209,380,553"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.samsung.hakaton2024.app-mergeDebugResources-43:/values-ldltr-v21/values-ldltr-v21.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\lutse\\.gradle\\caches\\transforms-3\\a6897e82d3944be8fcf52c862edaf9ad\\transformed\\appcompat-1.6.1\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "112",
+                        "endOffsets": "163"
+                    }
+                }
+            ]
+        }
+    ]
+}
