@@ -1,12 +1,13 @@
 <resources>
     <string name="app_name">Hakaton2024</string>
     <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_dashboard">Search</string>
+    <string name="title_notifications">Add</string>
     <string name="title_profile">Profile</string>
     <string name="title_profileName">Иван</string>
     <string name="title_likes">Кол-во лайков</string>
     <string name="title_comments">Кол-во комментариев</string>
     <string name="title_others">Прочие</string>
     <string name="authors_photo">Фото автора</string>
+
 </resources>

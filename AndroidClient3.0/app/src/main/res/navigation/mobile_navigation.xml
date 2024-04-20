@@ -13,20 +13,20 @@
 
     <fragment
         android:id="@+id/navigation_dashboard"
-        android:name="com.samsung.hakaton2024.ui.dashboard.DashboardFragment"
+        android:name="com.samsung.hakaton2024.ui.search.SearchFragment"
         android:label="@string/title_dashboard"
         tools:layout="@layout/fragment_dashboard" />
 
     <fragment
         android:id="@+id/navigation_notifications"
-        android:name="com.samsung.hakaton2024.ui.notifications.NotificationsFragment"
+        android:name="com.samsung.hakaton2024.ui.add.AddFragment"
         android:label="@string/title_notifications"
         tools:layout="@layout/fragment_notifications" />
-
-
     <fragment
-        android:id="@+id/navigation_noti"
-        android:name="com.samsung.hakaton2024.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:id="@+id/navigation_profile"
+        android:name="com.samsung.hakaton2024.ui.profile.ProfileFragment"
+        android:label="@string/title_profile"
+        tools:layout="@layout/fragment_profile" />
+
+
 </navigation>
