@@ -16,7 +16,14 @@
 
 
     <string name="create">Создать </string>
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text1">Название</string>
+    <string name="text2">Описание</string>
+    <string name="text3">Ссылка</string>
+
+
+    <string name="edtext1">Введите описание</string>
+    <string name="edtext2">Добавьте описание</string>
+    <string name="edtext3">Добавьте сюда ссылку</string>
+
 
 </resources>
