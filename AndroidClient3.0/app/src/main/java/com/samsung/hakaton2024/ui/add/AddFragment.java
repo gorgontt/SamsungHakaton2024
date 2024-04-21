@@ -47,6 +47,7 @@ public class AddFragment extends Fragment {
         MenuItem btn = bottomNavMenu.findItem(R.id.navigation_notifications);
 
    */
+        //
         binding.btnAddPhoto.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
